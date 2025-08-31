@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WebStorm
+Exec=/home/radandri/goinfre/jetbrains/WebStorm/bin/webstorm.sh
+Icon=/home/radandri/goinfre/jetbrains/WebStorm/bin/webstorm.png
+Comment=JavaScript IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false

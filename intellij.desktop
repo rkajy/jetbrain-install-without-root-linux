@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IntelliJ IDEA
+Exec=/home/radandri/goinfre/jetbrains/idea-IU/bin/idea.sh
+Icon=/home/radandri/goinfre/jetbrains/idea-IU/bin/idea.png
+Comment=Java IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CLion
+Exec=/home/radandri/goinfre/jetbrains/clion-2025.2/bin/clion.sh
+Icon=/home/radandri/goinfre/jetbrains/clion-2025.2/bin/clion.png
+Comment=C/C++ IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false

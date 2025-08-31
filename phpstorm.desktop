@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PhpStorm
+Exec=/home/radandri/goinfre/jetbrains/PhpStorm/bin/phpstorm.sh
+Icon=/home/radandri/goinfre/jetbrains/PhpStorm/bin/phpstorm.png
+Comment=PHP IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false

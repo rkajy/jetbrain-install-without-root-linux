@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PyCharm
+Exec=/home/radandri/goinfre/jetbrains/pycharm-2025.2.1/bin/pycharm.sh
+Icon=/home/radandri/goinfre/jetbrains/pycharm-2025.2.1/bin/pycharm.png
+Comment=Python IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false
