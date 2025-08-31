@@ -66,8 +66,8 @@ Créez le fichier `~/.local/share/applications/pycharm.desktop` :
 Version=1.0
 Type=Application
 Name=PyCharm
-Exec=/home/$USER/jetbrains/pycharm-2025.1/bin/pycharm.sh
-Icon=/home/$USER/jetbrains/pycharm-2025.1/bin/pycharm.png
+Exec=/home/$USER/goinfre/jetbrains/pycharm-2025.1/bin/pycharm.sh
+Icon=/home/$USER/goinfre/jetbrains/pycharm-2025.1/bin/pycharm.png
 Comment=Python IDE by JetBrains
 Categories=Development;IDE;
 Terminal=false
@@ -80,8 +80,8 @@ Terminal=false
 Version=1.0
 Type=Application
 Name=PhpStorm
-Exec=/home/$USER/jetbrains/phpstorm-2025.1/bin/phpstorm.sh
-Icon=/home/$USER/jetbrains/phpstorm-2025.1/bin/phpstorm.png
+Exec=/home/$USER/goinfre/jetbrains/phpstorm-2025.1/bin/phpstorm.sh
+Icon=/home/$USER/goinfre/jetbrains/phpstorm-2025.1/bin/phpstorm.png
 Comment=PHP IDE by JetBrains
 Categories=Development;IDE;
 Terminal=false
@@ -94,8 +94,8 @@ Terminal=false
 Version=1.0
 Type=Application
 Name=WebStorm
-Exec=/home/$USER/jetbrains/webstorm-2025.1/bin/webstorm.sh
-Icon=/home/$USER/jetbrains/webstorm-2025.1/bin/webstorm.png
+Exec=/home/$USER/goinfre/jetbrains/webstorm-2025.1/bin/webstorm.sh
+Icon=/home/$USER/goinfre/jetbrains/webstorm-2025.1/bin/webstorm.png
 Comment=JavaScript IDE by JetBrains
 Categories=Development;IDE;
 Terminal=false
@@ -108,9 +108,23 @@ Terminal=false
 Version=1.0
 Type=Application
 Name=IntelliJ IDEA
-Exec=/home/$USER/jetbrains/ideaIC-2025.1/bin/idea.sh
-Icon=/home/$USER/jetbrains/ideaIC-2025.1/bin/idea.png
+Exec=/home/$USER/goinfre/jetbrains/ideaIC-2025.1/bin/idea.sh
+Icon=/home/$USER/goinfre/jetbrains/ideaIC-2025.1/bin/idea.png
 Comment=Java IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false
+```
+
+### Exemple : `clion.desktop`
+
+```ini
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CLion
+Exec=/home/$USER/goinfre/jetbrains/clion-2025.1/bin/clion.sh
+Icon=/home/$USER/goinfre/jetbrains/clion-2025.1/bin/clion.png
+Comment=C/C++ IDE by JetBrains
 Categories=Development;IDE;
 Terminal=false
 ```
