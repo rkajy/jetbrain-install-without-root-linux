@@ -1,6 +1,6 @@
 # Installation des IDE JetBrains sans droits administrateur (Linux)
 
-Ce guide explique comment installer et utiliser **PhpStorm, WebStorm, PyCharm et IntelliJ IDEA** depuis les archives `.tar.gz`, sans nécessiter les droits administrateur.  
+Ce guide explique comment installer et utiliser **PhpStorm, WebStorm, PyCharm et IntelliJ IDEA** depuis les archives `.tar.gz`, sans nécessiter les droits administrateur. D'autres logiciels marchent aussi (ex: Thunderbird)
 L’intégration au menu des applications est réalisée via des fichiers `.desktop` stockés dans `~/.local/share/applications/`.
 
 ---
@@ -18,7 +18,8 @@ wget https://download.jetbrains.com/python/pycharm-community-2025.1.tar.gz -P ~/
 Faites de même pour :
 - PhpStorm  
 - WebStorm  
-- IntelliJ IDEA  
+- IntelliJ IDEA
+- Clion
 
 ---
 
@@ -126,6 +127,20 @@ Exec=/home/$USER/goinfre/jetbrains/clion-2025.1/bin/clion.sh
 Icon=/home/$USER/goinfre/jetbrains/clion-2025.1/bin/clion.png
 Comment=C/C++ IDE by JetBrains
 Categories=Development;IDE;
+Terminal=false
+```
+
+### Exemple : `thunderbird.desktop`
+
+```ini
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Thunderbird
+Exec=/home/$USER/goinfre/thunderbird/thunderbird
+Icon=/home/$USER/goinfre/thunderbird/chrome/icons/default/default128.png
+Comment=Client de messagerie
+Categories=Network;Email;
 Terminal=false
 ```
 
